@@ -14,24 +14,6 @@ public class MainMember {
         member.setApplydate(applydate);
         System.out.println("Güncellendi " + member.getName() + " " + member.getId() + " " + member.getBirthdate() + " " + member.getApplydate() );
 
-        member.setName("Samira Said");
-        member.setId(127);
-        member.setBirthdate(birthdate);
-        member.setApplydate(applydate);
-        System.out.println("Güncellendi " + member.getName() + " " + member.getId() + " " + member.getBirthdate() + " " + member.getApplydate() );
-
-        member.setName("Diana Sandulescu");
-        member.setId(1940);
-        member.setBirthdate(birthdate);
-        member.setApplydate(applydate);
-        System.out.println("Güncellendi " + member.getName() + " " + member.getId() + " " + member.getBirthdate() + " " + member.getApplydate() );
-
-        member.setName("Despina Vandi");
-        member.setId(2210);
-        member.setBirthdate(birthdate);
-        member.setApplydate(applydate);
-        System.out.println("Güncellendi " + member.getName() + " " + member.getId() + " " + member.getBirthdate() + " " + member.getApplydate() );
-
 
     }
 }
