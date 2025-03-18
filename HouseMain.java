@@ -12,24 +12,17 @@ public class HouseMain {
         house2.addRoom("Bathroom", 24.8);
         house2.addRoom("Kitchen", 25.4);
 
-        System.out.println("ARKADAŞLARIMIN EVİNİ LEAKLİYORUM :p ");
-        System.out.println();
 
-        System.out.println("Nazlı'nın evi");
+
         System.out.println(house1.address);
         house1.showRooms();
-        System.out.println("İlayda'nın evi");
         System.out.println(house2.address);
         house2.showRooms();
 
         house1.removeRoom("Bedroom");
-        System.out.println("Nazlı yatak odasına veda ediyor");
-        System.out.println();
 
-        System.out.println("Nazlı'nın evi");
         System.out.println(house1.address);
         house1.showRooms();
-        System.out.println("İlayda'nın evi");
         System.out.println(house2.address);
         house2.showRooms();
     }
